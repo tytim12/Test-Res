@@ -13,7 +13,7 @@ def quick_sort(list, left, right):
         while left < right and list[left] <=key:
             left += 1
         list[right] = list [left]
-    
+
     list[right] = key
     quick_sort(list, low, left - 1)
     quick_sort(list, left + 1, high)
