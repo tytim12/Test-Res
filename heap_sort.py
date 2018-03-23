@@ -9,7 +9,7 @@ def heap_sort(iterable):
 
 
 def main():
-    L = [1, 3, 5, 7, 9, 2, 4, 6, 8, 0]
+    L = [10,1, 3, 5, 7, 9, 2, 4, 6, 8, 0]
     print (heap_sort(L))
 
 
